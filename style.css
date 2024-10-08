@@ -1,0 +1,111 @@
+.codex{
+            position: absolute;
+            padding-left: 260px;
+            height: 300px;
+            float: left;
+            left: 0;  
+            color: #131313;
+            text-align: center;
+            margin-bottom: 20px;
+     }
+.codex1{
+        
+            position: absolute;
+            padding-left: 475px;
+            height: 300px;
+            float: left;
+            left: 0;  
+            color: #3e9bec;
+            text-align: center;
+            margin-bottom: 20px;
+ }
+
+.logo{
+            position: absolute;
+            padding-left: 275px;
+            height: 300px;
+            float: left;
+            left: 0;
+     }
+
+.codathon1{
+        position: absolute;
+        padding-left: 240px;
+        padding-top: 270px;
+        float: left;
+        left: 0;  
+        color: #21bbf8;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+ }
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding-right: 150px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 500px;
+        }
+
+        .main h1 {
+            color: #3dbeed;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .radio-item {
+            display: inline-flex;
+            padding-bottom: 25px;
+            padding-left: 10px;
+        }
+        .radio-item label {
+            margin-left: -35px; 
+            font-weight: normal;
+        }
+        .radio-item input {
+            margin-top: -5px;
+            margin-left: 50px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            padding-left: 50px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 75%;
+            margin-bottom: 15px;
+            margin-left: 50px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #3dbeed;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
